@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView19"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="36dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Types Of Classifieds"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:textSize="11dp" />-->
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="20dp" />
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/spinner3"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="47dp"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textSize="10dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:text="Search" />-->
+</RelativeLayout>

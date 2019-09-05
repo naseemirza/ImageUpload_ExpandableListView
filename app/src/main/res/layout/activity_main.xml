@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Hello Ansari Ji..."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/daynametext"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:text="SUNDAY"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/ampmtext"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="ampm"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonreg"
+        android:layout_alignStart="@+id/buttonreg"
+        android:layout_below="@+id/buttonexp"
+        android:text="Regisrer" />
+
+    <Button
+        android:id="@+id/buttonreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonR"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/buttonDlg1"
+        android:layout_toRightOf="@+id/buttonDlg1"
+        android:text="Reg" />
+
+    <Button
+        android:id="@+id/buttonexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDlg1"
+        android:layout_toLeftOf="@+id/buttonR"
+        android:layout_toStartOf="@+id/buttonR"
+        android:text="Expandable" />
+
+    <Button
+        android:id="@+id/buttonDlg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/card1"
+        android:layout_marginTop="19dp"
+        android:text="Dialoge" />
+
+    <Button
+        android:id="@+id/buttonupldimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonR"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="UploadImage" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonreg"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="AutoComplText" />
+
+    <Button
+        android:id="@+id/imgupld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:text="ImgUpload" />
+
+    <Button
+        android:id="@+id/buttonwebview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:text="webview" />
+
+    <Button
+        android:id="@+id/buttonpdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonexp"
+        android:layout_alignEnd="@+id/buttonwebview"
+        android:layout_alignRight="@+id/buttonwebview"
+        android:text="PDFViever" />
+
+    <Button
+        android:id="@+id/pdfcreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonreg"
+        android:layout_marginBottom="18dp"
+        android:layout_toLeftOf="@+id/buttonreg"
+        android:layout_toStartOf="@+id/buttonreg"
+        android:text="PDFCreate" />
+
+</RelativeLayout>

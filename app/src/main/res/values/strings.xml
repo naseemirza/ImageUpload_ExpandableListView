@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DialogBox</string>
+
+    <string-array name="spinnerItems">
+
+        <item>Classifieds</item>
+        <item>Company Directory</item>
+
+    </string-array>
+
+
+</resources>
